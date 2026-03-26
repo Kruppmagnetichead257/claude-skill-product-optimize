@@ -42,18 +42,26 @@ This skill enforces **one commit per optimization item**, paired with a checklis
 
 ## Installation / 安装
 
-```bash
-mkdir -p ~/.claude/skills/product-optimize
-cp SKILL.md ~/.claude/skills/product-optimize/SKILL.md
+Just paste the following to Claude Code / 把下面这句话直接发给 Claude Code：
+
+```
+帮我安装这个 skill: https://github.com/bitdezi/claude-skill-product-optimize
 ```
 
-Or clone and copy / 或克隆后复制:
+Claude Code will fetch the file and install it to the correct location automatically. Restart Claude Code after installation.
+
+Claude Code 会自动获取文件并安装到正确位置。安装后重启 Claude Code 即可。
+
+<details>
+<summary>Manual installation / 手动安装</summary>
 
 ```bash
 git clone https://github.com/bitdezi/claude-skill-product-optimize.git
 mkdir -p ~/.claude/skills/product-optimize
 cp claude-skill-product-optimize/SKILL.md ~/.claude/skills/product-optimize/
 ```
+
+</details>
 
 ## Usage / 使用
 
