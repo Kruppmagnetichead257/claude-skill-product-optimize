@@ -45,6 +45,9 @@ This skill enforces **one commit per optimization item**, paired with a checklis
 Just paste the following to Claude Code / 把下面这句话直接发给 Claude Code：
 
 ```
+Install this skill: https://github.com/bitdezi/claude-skill-product-optimize
+```
+```
 帮我安装这个 skill: https://github.com/bitdezi/claude-skill-product-optimize
 ```
 
